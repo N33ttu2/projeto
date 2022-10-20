@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/x-icon" href="C:\Users\jhona\Downloads\ATV_João Bispo de Santana Neto e Carlos Henrique\drive-download-20220727T012813Z-001\controle.jpg">
+        <title> GameShock - Cadastro </title>
+      </head>
+ <body>    
+    <style>
+        body{
+        background-image: url(fundo.jpeg);
+            background-size: 1920px;
+        }
+    </style>
+     <h1> Cadastre-se </h1>
+     <span>Apagar tudo</span>
+     <button type="reset"></button>
+ <span>Nome:</span>
+ <input type=" text" name="TextNome" size="50">
+ &nbsp;&nbsp;&nbsp;
+ <span>Data Nasc.</span>
+ <input type="date" name="dateDataNasc">
+ <br>
+ <br>
+ <span>User</span>
+ <input type="text" name="trxtapelido">
+ &nbsp;&nbsp;&nbsp;
+ <span>Foto do perfil</span>
+ <input type="file" name="fileComPerfil">
+<div>
+<input type="radio" name="webmaster" value="Homem"/> Homem<br />
+<input type="radio" name="webmaster" value="Mulher"/> Mulher<br />
+<input type="radio" name="webmaster" value="Outro"/> Outro<br />
+</div>
+
+     <span>Email:</span>
+     <input type="email" name="mail" id="mail" value="">
+     <span>Senha:</span>
+     <input type="password" name="Senha">
+     <h1>Marque seus interesses</h1>
+     <span>Fantasia</span>
+     <input type="checkbox" id="fantasia" value="Fantasia" name="Fantasia">
+     <span>Ação</span>
+     <input type="checkbox" id="ação" value="gamer">
+     <span>RPG</span>
+     <input type="checkbox" id="RPG" value="gamer">
+     <span>Arcade</span>
+     <input type="checkbox" id="Arcade" value="gamer">
+     <span>Enviar dados</span>
+     <button type="submit"></button>
+     <span>Apagar tudo</span>
+     <button type="reset"></button>
+     <button onclick="projeto()"> clique aqui </button>
+     <script>
+        function projeto() {
+           const ft = (document.getElementsByName("Fantasia"));
+           const aa = ft.toString
+            alert ("Os temas escolhidos foram: " + aa);
+
+        }
+
+     </script>
+ </body>
+ <html/>
+                
+            
